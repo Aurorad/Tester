@@ -524,6 +524,7 @@ namespace Tester1._0._1
         /// <param name="e"></param>
         private void ItemEdit_Click(object sender, RoutedEventArgs e)
         {
+           
             if (ourTest.questions[Index - 1] is ChooseRightOne)
             {
                 type = 0;
@@ -654,6 +655,7 @@ namespace Tester1._0._1
                 tb1[i].SpellCheck.IsEnabled = true;
                 AddToGrid(3 + i, 3, 3, tb1[i]);
             }
+            ListOfQuestions();
         }
         private void EditComparison()
         {
@@ -715,6 +717,7 @@ namespace Tester1._0._1
                 AddToGrid(3 + i, 2, 3, tb1[i]);
                 AddToGrid(3 + i, 5, tb2[i]);
             }
+            ListOfQuestions();
         }
         
         /// <summary>

@@ -125,3 +125,4 @@ E:\Sheva\Tester\Tester1.0.1\Tester1.0.1\Tester1.0.1\obj\Debug\Tester1.0.1.exe
 E:\Sheva\Tester\Tester1.0.1\Tester1.0.1\Tester1.0.1\obj\Debug\Tester1.0.1.pdb
 E:\Sheva\Tester\Tester1.0.1\Tester1.0.1\Tester1.0.1\obj\Debug\Tester1.0.1.exe.config
 E:\Sheva\Tester\Tester1.0.1\Tester1.0.1\Tester1.0.1\obj\Debug\TestingWindow.g.cs
+E:\Sheva\Tester\Tester1.0.1\Tester1.0.1\Tester1.0.1\obj\Debug\TestingWindow.baml

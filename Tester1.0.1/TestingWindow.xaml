@@ -5,8 +5,20 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:local="clr-namespace:Tester1._0._1"
         mc:Ignorable="d"
-        Title="TestingWindow" Height="450" Width="800">
-    <Grid>
-        
+        Title="TestingWindow"  WindowState="Maximized"
+        Background="Bisque" Language="uk-UA"
+        FontFamily="Georgia" FontSize="20">
+    <Grid x:Name="TestingGrid">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="5"/>
+            <ColumnDefinition Width="50"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="2*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
     </Grid>
 </Window>
