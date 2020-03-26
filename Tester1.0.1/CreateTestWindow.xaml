@@ -1,0 +1,34 @@
+﻿<Window x:Class="Tester1._0._1.CreateTestWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Tester1._0._1"
+        mc:Ignorable="d"
+        Title="CreateTestWindow" WindowState="Maximized"
+        Background="Bisque" Language="uk-UA"
+        FontFamily="Georgia" FontSize="20">
+    <Grid x:Name="CreateTestWindowGrid" >
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="5"/>
+            <ColumnDefinition Width="50"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="2*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Menu Grid.Row="0"  Grid.Column="0"  Foreground="Gray" FontFamily="Georgia" FontSize="25"
+              Margin="5, 5, 5, 5" Background="Bisque" FontStyle="Italic">
+            <MenuItem FontSize="30"  Header="_Тест" >
+                <MenuItem x:Name="CreateNewTest" Header="_Створити новий тест" Click="CreateNewTest_Click"/>
+                <MenuItem  x:Name="OpenTest" Header="_Редагувати існуючий" Click="OpenTest_Click"/>
+                <MenuItem x:Name="SaveTest" Header="_Зберегти" Click="SaveTest_OnClick"/>
+            </MenuItem>
+        </Menu>
+        <!--<GridSplitter x:Name="Splitter" Grid.Column="1" HorizontalAlignment="Stretch"/>-->
+    </Grid>
+</Window>
